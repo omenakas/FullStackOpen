@@ -1,4 +1,4 @@
-´´´mermaid
+```mermaid
 sequenceDiagram
 	browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
 	activate server
@@ -9,4 +9,4 @@ sequenceDiagram
 	server-->>browser: HTML document
 	deactivate server
 
-´´´
+```
