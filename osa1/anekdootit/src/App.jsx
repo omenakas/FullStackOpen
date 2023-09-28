@@ -36,15 +36,14 @@ const App = () => {
     copyPoints[selected] += 1
     setPoints(copyPoints)
     mostVotes()
-    console.log(points)
   }
 
   const randomGenerator = () => {
     const newSelection = Math.floor(Math.random() * max )
-    console.log(newSelection)
-    console.log(selected)
+    /* console.log(newSelection)
+    console.log(selected) */
     setSelected(newSelection)
-    console.log(selected)
+    /* console.log(selected) */
   }
 
   return (
